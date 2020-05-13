@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Med Socio</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+  </head>
+  <style>
+    html,
+    body {
+      font-family: Poppins;
+      font-size: 14px;
+      margin: 0;
+      min-height: 10px;
+      justify-content: center;
+      display: inline-block;
+      padding: 0;
+      width: 279px;
+    }
+    h1 {
+      font-family: Poppins;
+      font-size: 15px;
+      font-weight: 600;
+      margin: 0;
+      color: black;
+    }
+    a:link,
+    a:visited {
+      color: #000;
+      outline: 0;
+      text-decoration: none;
+    }
+    img {
+      width: 20px;
+    }
+    .modal-header {
+      align-items: center;
+      border-bottom: 0.5px solid white;
+    }
+    .modal-content {
+      padding: 7px 4px 5px 5px;
+    }
+    .modal-icons {
+      border-top: 1px solid white;
+      height: 20px;
+      width: 100%;
+      justify-content: space-between;
+    }
+    .logo {
+      padding: 2px;
+    }
+    .logo-icon {
+      vertical-align: text-bottom;
+      margin-right: 14px;
+    }
+    .version {
+      color: gray;
+      font-size: 18px;
+    }
+    .flex-container {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 22px;
+    }
+    .flex {
+      opacity: 1;
+      transition: opacity 0.2s ease-in-out;
+      width: 80px;
+    }
+    .flex:hover {
+      opacity: 0.4;
+    }
+    .fa-youtube {
+      color: red;
+      font-size: 32px;
+    }
+    .fa-facebook {
+      color: rgb(3, 3, 92);
+      font-size: 32px;
+    }
+    .fa-twitter {
+      color: rgb(6, 116, 180);
+      font-size: 32px;
+    }
+    .fa-github {
+      font-size: 32px;
+    }
+    .fa-linkedin {
+      color: rgb(3, 13, 73);
+      font-size: 32px;
+    }
+    .fa-wordpress {
+      color: rgb(57, 82, 167);
+      font-size: 32px;
+    }
+    .fa-amazon {
+      font-size: 32px;
+    }
+    .fa-instagram {
+      color: rgb(105, 8, 184);
+      font-size: 32px;
+    }
+  </style>
+  <body>
+    <div class="modal-header">
+      <h1 class="logo">
+        <img src="icon.png" alt="MedSocio" class="logo-icon" />
+        MedSocio <span class="version">(1.0.0.)</span>
+      </h1>
+      <p style="text-align:center;">Social Media Launcher</p>
+    </div>
+    <div class="modal-content">
+      <div class="flex-container">
+        <div class="flex">
+          <a href="https://www.youtube.com" target="_blank">
+            <i class="fa fa-youtube"></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://www.facebook.com" target="_blank">
+            <i class="fa fa-facebook"></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://www.twitter.com" target="_blank">
+            <i class="fa fa-twitter"></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://www.github.com" target="_blank">
+            <i class="fa fa-github"></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://www.linkedin.com" target="_blank">
+            <i class="fa fa-linkedin"></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://www.wordpress.com" target="_blank">
+            <i class="fa fa-wordpress"></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://www.amazon.com" target="_blank">
+            <i class="fa fa-amazon"></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://www.instagram.com" target="_blank">
+            <i class="fa fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <p style="text-align:center;">Developed By Bankole Ahmed</p>
+    <script src="popup.js"></script>
+  </body>
+</html>
